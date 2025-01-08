@@ -2,6 +2,9 @@
 
 const Projects = () => {
 
+    const target = "_blank";
+
+    const personalSite = "https://github.com/BazilAkram/BazilAkram.github.io";
     const sunLabAccessSystem = "https://github.com/BazilAkram/SUN-Lab-Access-System";
     const tenantApp = "https://github.com/BazilAkram/Maintenance-Request-System";
     const tetraGenRep = "https://github.com/BazilAkram/tetrahedron-generator";
@@ -17,6 +20,17 @@ const Projects = () => {
                 </div>
             </section>
 
+            <div className="box">
+                <h3 className="title is-4">Personal Site</h3>
+                <p>The site you are on.</p>
+                <div className="tags">
+                    <span className="tag is-info">JavaScript</span>
+                    <span className="tag is-danger">React</span>
+                    <span className="tag is-primary">GIT</span>
+                </div>
+                <a href={personalSite} target={target}>Github Repository</a>
+            </div>
+
             <section className="section">
                 <div className="box">
                     <h3 className="title is-4">SUN Lab Access System</h3>
@@ -31,7 +45,7 @@ const Projects = () => {
                         <span className="tag is-info">Python</span>
                         <span className="tag is-primary">Tkinter</span>
                     </div>
-                    <a href={sunLabAccessSystem} target={"_blank"}>Github Repository</a>
+                    <a href={sunLabAccessSystem} target={target}>Github Repository</a>
                 </div>
 
                 <div className="box">
@@ -46,7 +60,7 @@ const Projects = () => {
                         <span className="tag is-info">JavaScript</span>
                         <span className="tag is-danger">React</span>
                     </div>
-                    <a href={tenantApp} target={"_blank"}>Github Repository</a>
+                    <a href={tenantApp} target={target}>Github Repository</a>
                 </div>
 
                 <div className="box">
@@ -59,9 +73,9 @@ const Projects = () => {
                         <span className="tag is-danger">Vite</span>
                         <span className="tag is-danger">Three.js</span>
                     </div>
-                    <a href={tetraGenRep} target={"_blank"}>Github Repository</a>
+                    <a href={tetraGenRep} target={target}>Github Repository</a>
                     <br/>
-                    <a href={tetraGenInteractive} target={"_blank"}>Interactive</a>
+                    <a href={tetraGenInteractive} target={target}>Interactive</a>
                 </div>
 
             </section>
