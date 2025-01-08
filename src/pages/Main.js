@@ -1,9 +1,9 @@
 
-
 const Main = () => {
 
     const linkedin = "https://www.linkedin.com/in/bazil-akram/";
     const github = "https://github.com/BazilAkram";
+    const resume = "";
     return (
         <>
             <section className="hero is-primary">
@@ -28,8 +28,8 @@ const Main = () => {
             </section>
 
             <div className="buttons container">
-                <button className="button is-primary is-dark has-text-white">Projects</button>
-                <button className="button is-danger is-dark has-text-white">Resume PDF</button>
+                <button onClick={() => window.open('/projects', '_blank')} className="button is-primary is-dark has-text-white">Projects</button>
+                <a href={resume} target="_blank" className="button is-danger is-dark has-text-white">Resume PDF</a>
                 <a href={linkedin} target="_blank" className="button is-link is-dark has-text-white">LinkedIn</a>
                 <a href={github} target="_blank" className="button is-dark">GitHub</a>
             </div>

@@ -10,7 +10,7 @@ function App() {
         <Routes>
             <Route path="/" exact element={<Main />} />
             <Route path="*" element={<NotFoundPage />} /> {/* Catch-all route for 404 */}
-            <Route path="/Projects" exact element={<Projects />} />
+            <Route path="/projects" exact element={<Projects />} />
         </Routes>
       </Router>
   );
