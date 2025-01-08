@@ -20,18 +20,19 @@ const Projects = () => {
                 </div>
             </section>
 
-            <div className="box">
-                <h3 className="title is-4">Personal Site</h3>
-                <p>The site you are on.</p>
-                <div className="tags">
-                    <span className="tag is-info">JavaScript</span>
-                    <span className="tag is-danger">React</span>
-                    <span className="tag is-primary">GIT</span>
-                </div>
-                <a href={personalSite} target={target}>Github Repository</a>
-            </div>
-
             <section className="section">
+                <div className="box">
+                    <h3 className="title is-4">Personal Site</h3>
+                    <p>The site you are on.</p>
+                    <br/>
+                    <div className="tags">
+                        <span className="tag is-info">JavaScript</span>
+                        <span className="tag is-danger">React</span>
+                        <span className="tag is-primary">GIT</span>
+                    </div>
+                    <a href={personalSite} target={target}>Github Repository</a>
+                </div>
+
                 <div className="box">
                     <h3 className="title is-4">SUN Lab Access System</h3>
                     <p>Class project for CMPSC487W designed to track student access to the school's Computer Lab. The
