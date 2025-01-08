@@ -4,6 +4,7 @@ const Main = () => {
     const linkedin = "https://www.linkedin.com/in/bazil-akram/";
     const github = "https://github.com/BazilAkram";
     const resume = "";
+
     return (
         <>
             <section className="hero is-primary">
@@ -38,22 +39,25 @@ const Main = () => {
                 <div className="container">
                     <h2 className="title">Skills</h2>
                     <div className="tags">
-                        <span className="tag is-primary">JavaScript</span>
+                        <span className="tag is-info">JavaScript</span>
                         <span className="tag is-info">Typescript</span>
-                        <span className="tag is-danger">Python</span>
-                        <span className="tag is-warning">C</span>
-                        <span className="tag is-primary">C++</span>
+                        <span className="tag is-info">Python</span>
+                        <span className="tag is-info">C</span>
+                        <span className="tag is-info">C++</span>
                         <span className="tag is-info">Java</span>
-                        <span className="tag is-danger">MIPS</span>
-                        <span className="tag is-primary">Node.js</span>
-                        <span className="tag is-info">Vue</span>
+                        <span className="tag is-info">MIPS</span>
+                        <span className="tag is-danger">Node.js</span>
+                        <span className="tag is-danger">Vue</span>
                         <span className="tag is-danger">React</span>
-                        <span className="tag is-warning">Angular</span>
-                        <span className="tag is-primary">Next.js</span>
-                        <span className="tag is-info">SQL</span>
-                        <span className="tag is-danger">Oracle</span>
-                        <span className="tag is-warning">Microsoft Power Platform</span>
+                        <span className="tag is-danger">Angular</span>
+                        <span className="tag is-danger">Next.js</span>
+                        <span className="tag is-danger">Vite</span>
+                        <span className="tag is-danger">Three.js</span>
+                        <span className="tag is-warning">SQL</span>
+                        <span className="tag is-warning">Oracle</span>
+                        <span className="tag is-primary">Microsoft Power Platform</span>
                         <span className="tag is-primary">GIT</span>
+                        <span className="tag is-primary">Tkinter</span>
 
                     </div>
                 </div>
