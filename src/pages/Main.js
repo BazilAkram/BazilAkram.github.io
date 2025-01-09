@@ -22,7 +22,7 @@ const Main = () => {
                     <p>
                         I am a senior Computer Science student at Pennsylvania State University with hands-on experience
                         in software development and a solid foundation in data structures, algorithms, and web-based
-                        applications. Here I will be posting my resume and any new projects I work on.
+                        applications. Here I will be posting my socials and any new projects I work on.
                     </p>
                     <p><strong>Expected graduation: May 2025</strong></p>
                 </div>
