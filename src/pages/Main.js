@@ -1,9 +1,9 @@
 
 const Main = () => {
 
-    const linkedin = "https://www.linkedin.com/in/bazil-akram/";
+    const linkedin = "https://www.linkedin.com/in/bazil-akram";
     const github = "https://github.com/BazilAkram";
-    const resume = "";
+    const resume = "https://bazilakram.tiiny.site";
 
     return (
         <>
