@@ -3,6 +3,7 @@ import { HashRouter, BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './pages/Main'
 import NotFoundPage from './pages/NotFoundPage';
 import Projects from "./pages/Projects";
+import Footer from './components/Footer';
 
 // Determine which router to use
 const Router = ({ children }) => {
@@ -12,13 +13,16 @@ const Router = ({ children }) => {
 
 function App() {
   return (
-      <Router>
-        <Routes>
-            <Route path="/" exact element={<Main />} />
-            <Route path="*" element={<NotFoundPage />} /> {/* Catch-all route for 404 */}
-            <Route path="/projects" exact element={<Projects />} />
-        </Routes>
-      </Router>
+      <>
+          <Router>
+              <Routes>
+                  <Route path="/" exact element={<Main />} />
+                  <Route path="*" element={<NotFoundPage />} /> {/* Catch-all route for 404 */}
+                  <Route path="/projects" exact element={<Projects />} />
+              </Routes>
+          </Router>
+          <Footer />
+      </>
   );
 }
 
